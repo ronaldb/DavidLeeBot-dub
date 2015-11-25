@@ -193,6 +193,7 @@ bot.on(bot.events.userJoin, function(data) {
 
 bot.on(bot.events.userLeave, function(data) {
     logger.debug('userLeave: ' + inspect(data));
+    bot.sendChat(data.user.username + ' has left the building.');
 });
 
 bot.on(bot.events.chatMessage, function(data) {
