@@ -1,0 +1,28 @@
+{
+  "name": "davidleebot-dubtrack",
+  "version": "0.1.0",
+  "description": "David Lee Bot - a robot for Dubtrack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronaldb/DavidLeeBot-dub.git"
+  },
+  "keywords": [
+    "dubtrack",
+    "robot"
+  ],
+  "author": "Ronald Bruintjes",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ronaldb/DavidLeeBot-dub/issues"
+  },
+  "homepage": "https://github.com/ronaldb/DavidLeeBot-dub#readme",
+  "private": true,
+  "dependencies": {
+    "dubapi": "git+https://github.com/anjanms/DubAPI.git",
+    "log4js": "^0.6.27"
+  }
+}
